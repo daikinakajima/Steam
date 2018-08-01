@@ -17,48 +17,52 @@ http://steamcommunity.com/dev/apikey/ でドメイン名を入れてAPIキーを
 # Steam APIでできること
 
 * GetNewsForApp（v0002）
+
 GetNewsForAppは、そのappIDで指定されたゲームの最新のニュースを返します。
 
 * GetGlobalAchievementPercentagesForApp（v0002）
+
 特定のゲームのグローバル実績の概要をパーセンテージで返します。
 
 * GetGlobalStatsForGame（v0001）
+
 ゲームのグローバル統計を取得する。
 
 * GetPlayerSummaries（v0002）
+
 プレイヤーの概要を取得する
 
 #### 公開データ
- * steamids
+  * steamids
 64ビットユーザーのSteamID
 
- * personaname
+  * personaname
 プレイヤの表示名。
 
- * profileurl
+  * profileurl
 プレイヤーのSteamコミュニティプロフィールの完全なURL。
- * avatar
+  * avatar
 プレーヤーの32x32pxアバターの完全なURL。
- * avatarmedium
+  * avatarmedium
 プレーヤーの64x64pxアバターの完全なURL。
- * avatarfull
+  * avatarfull
 プレーヤーの184x184pxアバターの完全なURL。
 
- * personastate
+  * personastate
 ユーザーの現在のステータス。
 0 - オフライン、1 - オンライン、2 - ビジー、3 - アウェイ、4 - スヌーズ、5 - 見栄え、6 - 遊びたい。
 プレーヤーのプロフィールがプライベートの場合、バグによりプロフィールがプライベートであってもそれらのステータスが表示されるため、ユーザーが自分のステータスをトレードしようとする、またはプレイするように設定している場合を除き、これは常に「0」になります。
 
- * communityvisibilitystate
+  * communityvisibilitystate
 これは、プロファイルが表示されているかどうかを示し、表示されている場合は、そのプロファイルが表示される理由を示します。このWebAPIは認証を使用しないため、返される可能性のある値は2つだけです：1 - プロファイルがあなたには見えない（Private、Friends Onlyなど）、3 - プロファイルが "Public"であり、データが見える。Mike BlaszczakのSteamフォーラムの記事では、「このAPIが返すコミュニティの可視性の状態はプライバシーの状態とは異なります。リクエストされたアカウントと表示されたアカウントとの関係から見たアカウントへのリクエストからアカウントへの有効な可視状態です。
 
- * profilestate
+  * profilestate
 設定されている場合、ユーザーにコミュニティプロフィールが設定されていることを示します（ '1'に設定されます）。
 
- * lastlogoff
+  * lastlogoff
 ユーザーがオンラインであった最後の時間（UNIX時間）。
 
- * commentpermission
+  * commentpermission
 設定されている場合、プロファイルが公開コメントを許可することを示します。
 
 #### 私的なデータ
