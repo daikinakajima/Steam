@@ -17,16 +17,16 @@ http://steamcommunity.com/dev/apikey/ でドメイン名を入れてAPIキーを
 # Steam APIでできること
 
 * GetNewsForApp（v0002）
- * GetNewsForAppは、そのappIDで指定されたゲームの最新のニュースを返します。
+  * GetNewsForAppは、そのappIDで指定されたゲームの最新のニュースを返します。
 
 * GetGlobalAchievementPercentagesForApp（v0002）
- * 特定のゲームのグローバル実績の概要をパーセンテージで返します。
+  * 特定のゲームのグローバル実績の概要をパーセンテージで返します。
 
 * GetGlobalStatsForGame（v0001）
- * ゲームのグローバル統計を取得する。
+  * ゲームのグローバル統計を取得する。
 
 * GetPlayerSummaries（v0002）
- * プレイヤーの概要を取得する
+  * プレイヤーの概要を取得する
 
 #### 公開データ
   * steamids
