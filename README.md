@@ -16,19 +16,19 @@ http://steamcommunity.com/dev/apikey/ でドメイン名を入れてAPIキーを
 
 # SteamAPIでできること
 
-#### ・GetNewsForApp（v0002）  
+**・GetNewsForApp（v0002）**
 GetNewsForAppは、そのappIDで指定されたゲームの最新のニュースを返します。
 
-#### ・GetGlobalAchievementPercentagesForApp（v0002）  
+**・GetGlobalAchievementPercentagesForApp（v0002）  **
 特定のゲームのグローバル実績の概要をパーセンテージで返します。
 
-#### ・GetGlobalStatsForGame（v0001）  
+・GetGlobalStatsForGame（v0001）  
 ゲームのグローバル統計を取得する。
 
-#### ・GetPlayerSummaries（v0002）  
+・GetPlayerSummaries（v0002）  
 プレイヤーの概要を取得する
 
-## 公開データ
+### 公開データ
 ・steamids  
 64ビットユーザーのSteamID
 
@@ -61,7 +61,7 @@ GetNewsForAppは、そのappIDで指定されたゲームの最新のニュー�
 ・commentpermission  
 設定されている場合、プロファイルが公開コメントを許可することを示します。
 
-## 私的なデータ
+### 私的なデータ
 ・realname  
 プレーヤーの実名。
 
@@ -88,7 +88,7 @@ Steamコミュニティプロフィールで設定されているプレイヤー
 ・GetFriendList（v0001）  
 Steamコミュニティプロフィールの表示設定が「公開」に設定されている場合、すべてのSteamユーザーのフレンドリストを返します。
 
-## 結果データ
+### 結果データ
 ユーザーの友人リストは、友人の配列として表示されます。プロフィールが非公開の場合は何も返されません。
 
 ・steamid  
