@@ -100,24 +100,24 @@ Steamコミュニティプロフィールの表示設定が「公開」に設定
 ・friend_since  
 関係が作成された時刻のUnixタイムスタンプ。
 
-GetPlayerAchievements（v0001）  
+・GetPlayerAchievements（v0001）  
 このユーザーのアチーブメントIDによるアチーブメントのリストを返します。
 
-GetUserStatsForGame（v0002）  
+・GetUserStatsForGame（v0002）  
 このユーザーのアチーブメントIDによるアチーブメントのリストを返します。
 
-GetOwnedGames（v0001）  
+・GetOwnedGames（v0001）  
 GetOwnedGamesは、プロファイルが公開されている場合、プレイヤーが所有するゲームのリストとプレイタイム情報を返します。自分の個人情報を要求している場合（つまり、使用しているWebAPIキーが要求しているスチームIDにリンクされている場合を除く）、プライベート、フレンドリーのみ、およびその他のプライバシー設定はサポートされていません。
 
-GetRecentlyPlayedGames（v0001）  
+・GetRecentlyPlayedGames（v0001）  
 GetRecentlyPlayedGamesは、プロフィールが公開されている場合、プレイヤーが過去2週間にプレイしたゲームのリストを返します。自分の個人情報を要求している場合（つまり、使用しているWebAPIキーが要求しているスチームIDにリンクされている場合を除く）、プライベート、フレンドリーのみ、およびその他のプライバシー設定はサポートされていません。
 
-IsPlayingSharedGame（v0001）  
+・IsPlayingSharedGame（v0001）  
 借り入れ中のアカウントが現在このゲームをプレイしている場合、IsPlayingSharedGameは元のオーナーのSteamIDを返します。ゲームが借用されていない場合、または借り手が現在このゲームをプレイしていない場合、結果は常に0です。
 
-GetSchemaForGame（v2）  
+・GetSchemaForGame（v2）  
 GetSchemaForGameは、gamename、gameversion、availablegamestats（成果と統計情報）を返します。
 
-GetPlayerBans（v1）  
+・GetPlayerBans（v1）  
 GetPlayerBansは、指定されたプレイヤーのコミュニティ、VAC、およびエコノミー禁止ステータスを返します。
 
