@@ -2,11 +2,13 @@
 
 SteamAPIを使うと、そのプラットホーム上の情報を取得することができる。
 
-## Step1()
+## Step1(steamAPIキーを取得)
 
 http://steamcommunity.com/login/home/ でSteamのアカウントを作成する。
 
 http://steamcommunity.com/dev/apikey/ でドメイン名を入れてAPIキーを取得する。
+
+＊ゲームを一つ以上と5ドル以上使用したアカウントのみAPIキーの取得可能。
 
 ## Step2()
 
