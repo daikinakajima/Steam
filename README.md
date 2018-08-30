@@ -19,11 +19,10 @@ http://steamcommunity.com/dev/apikey/ でドメイン名を入れてAPIキーを
 + GetNewsForApp（v0002） br
 GetNewsForAppは、そのappIDで指定されたゲームの最新のニュースを返します。
 
-* GetGlobalAchievementPercentagesForApp（v0002）
-
+* GetGlobalAchievementPercentagesForApp（v0002）  br
 特定のゲームのグローバル実績の概要をパーセンテージで返します。
 
-・GetGlobalStatsForGame（v0001）
+・GetGlobalStatsForGame（v0001）  
 ゲームのグローバル統計を取得する。
 
 ・GetPlayerSummaries（v0002）
